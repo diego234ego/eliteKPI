@@ -1,0 +1,22 @@
+# Entorno virtual
+venv/
+env/
+.venv/
+
+# Archivos de caché de Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Archivos de base de datos SQLite (opcional, si no quieres subirlos)
+db.sqlite3
+
+# Archivos de migraciones de Django (opcionales)
+*/migrations/*.py
+!*/migrations/__init__.py
+
+# Archivos de configuración local
+*.env
+*.local
